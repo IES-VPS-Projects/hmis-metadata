@@ -1,0 +1,5 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:1000
+d0b8ec1c-b47c-11ea-9fd5-080027405b36,General Admission,General Admission,"",General,Misc,Text,"","","",""
+cb0c0de4-b47c-11ea-a63e-080027405b36,Private Admission,Private Admission,"",Private,Misc,Text,"",,"",""
+bbfdf748-b479-11ea-8170-3f996b978d60,ADT TYPE,Admission Type,"",General/Private,Question,Coded,"","General Admission;
+Private Admission;","",""
