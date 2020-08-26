@@ -1,0 +1,7 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
+5d3939e2-d9e9-4624-be8e-4fb3735ad0a1,Cardex Time,Time,"",Time e.g 9 AM,Misc,Text,"","","",""
+b99349f7-fd9f-426b-9a51-02558f7e2ec7,Cardex Comments,Notes,"","",Misc,Text,"","","",""
+e1b9d651-6794-450f-98b7-357e24bd0134,Nurse Initials,"","","",Misc,Text,"","","",""
+f2c8ba78-f954-4d92-9077-845d27f77926,Cardex Form,Cardex Form,"","",Misc,N/A,"Cardex Time;
+Cardex Comments;
+Nurse Initials;","","",""

@@ -1,0 +1,68 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:950
+30f38c90-75a8-486a-b4f3-0163f9c91c32,Hygine,,,,Misc,N/A,"Bed Bath/Assisted Bath;
+Oral Care;
+Pressure Area Care;",,,
+d3523fda-b3d9-4036-ba2c-8552a9848ad6,Respiratory Care,,,,Misc,N/A,"Breathing Adequatly;
+Monitor Saturation;
+Oxygen Accordingly;",,,
+70232ca6-5b0e-4fd1-b03a-b22359049615,Nutrition Checklist,,,,Misc,N/A,"Diet in place;
+Oral Feeding;
+Nasogastric tube feediing;
+Parental;",,,
+652279c0-27fa-41c7-bafc-a2d2e9d2330d,Elimination,,,,Misc,N/A,"Passing Urine Adequately;
+Opening Bowels Adequately;
+Excessive Sweating;
+Additional Elimination Outlets;",,,
+3d1d72b0-b4d3-4a98-af1e-7d93255c1866,Muscolor - Skeletal System,,,,Misc,N/A,"Passive Exercise Done by Nurse;
+Physiotherapy Session;
+Mobilised;",,,
+3812948c-0a94-4c11-abaa-2723e4071342,Counselling,,,,Misc,N/A,"Nutritional Counselling;
+General Counsellor Session;",,,
+61c9e413-2fdb-4f87-9010-a1fb56617563,Medications,,,,Misc,N/A,"6.00 AM;
+12.00 PM;
+2.00 PM;
+6.00 PM;
+10.00 PM;",,,
+74d535b4-f2ff-4baf-bf46-8280d69e437c,Vital Observations Done,,,,Misc,N/A,"6.00 AM;
+12.00 PM;
+2.00 PM;
+6.00 PM;
+10.00 PM;
+Glascow Coma out of 15;",,,
+ffa79560-5be6-46d5-be06-6985d2d01bb1,Cannular Care,,,,Misc,N/A,"6.00 AM;
+12.00 PM;
+2.00 PM;
+6.00 PM;
+10.00 PM;",,,
+3d03dab2-a9a9-45bb-881a-69e285be53fc,Health Education - Session,,,,Misc,Boolean,,,,
+aa07c907-b975-4914-961e-21fbf7e92859,Doctors Instructions notes checked,,,,Misc,Boolean,,,,
+d2449e9e-67d4-4500-b376-ff0adfc23fd5,Safety Measures,,,,Misc,N/A,"Clean Dry Floors;
+Mosquitpo Net Available;
+Bedside Attendant;
+Bed rails as Necessary;
+Sanitizer in Cubicle;
+Infection Control Measures in Place;",,,
+a0a1decb-be94-4c26-a9e8-2b32bec7e8f6,Investigation reports followed up,,,,Misc,Boolean,,,,
+95f6e4b8-6b55-4852-b017-e7ecf00414fd,Next of kin updated on status of patient,,,,Misc,Boolean,,,,
+dc23f7ed-26de-4f76-8425-17b34020b2ae,Adequate Rest,,,,Misc,Boolean,,,,
+e9df8d92-85fd-4d78-9827-868af32e97b8,All procedures and Materials charged,,,,Misc,Boolean,,,,
+028e9e5d-553d-4c1e-bccc-a16de8d66720,Nurses Initials,,,,Misc,Text,,,,
+214f602f-0c67-4e6d-a213-8eeb383e8804,Checked by HOD,,,,Misc,Boolean,,,,
+c798f00e-e641-11ea-bc76-080027405b36,Nurse Checklist Form,"","","",Misc,N/A,"Hygine;
+Respiratory Care;
+Nutrition Checklist;
+Elimination;
+Muscolor - Skeletal System;
+Counselling;
+Medications;
+Vital Observations Done;
+Cannular Care;
+Health Education - Session;
+Doctors Instructions notes checked;
+Safety Measures;
+Investigation reports followed up;
+Next of kin updated on status of patient;
+Adequate Rest;
+All procedures and Materials charged;
+Nurses Initials;
+Checked by HOD;","","",""
