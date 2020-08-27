@@ -1,0 +1,16 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:930
+15a5236a-ed63-4071-b2e0-63e47227e5e4,Plan Time,Time,"","",Misc,Text,"","","",""
+ebdf7bf0-4115-4a4d-b05b-d7c06d90aa19,Nurse Assesment,Assesment,"","",Misc,Text,"","","",""
+e266b336-e27b-4080-9e31-e57519cfd3e7,Nursing Diagnosis,Nursing Diagnosis,"","",Misc,Text,"","","",""
+46e2e5d5-9b5e-42f4-8669-df1e93b30d5f,Expected Outcome,Expected Outcome,"","",Misc,Text,"","","",""
+090b0339-cb89-44b6-be0c-90658fd029f2,Implementation,Implementation,"","",Misc,Text,"","","",""
+d885f998-345d-4b3e-bbbf-aa25e080a555,Rationale,Rationale,"","",Misc,Text,"","","",""
+86184f67-23f5-45f6-96e3-7b64ef80e5d5,Nurse Evaluation,Evaluation,"","",Misc,Text,"","","",""
+17de5600-e7cb-11ea-9a1d-080027405b36,Nursing Plan Form,Nursing Plan,"","",Misc,N/A,"Plan Time;
+Nurse Assesment;
+Nursing Diagnosis;
+Expected Outcome;
+Implementation;
+Rationale;
+Nurse Evaluation;
+Nurse Initials;","","",""
