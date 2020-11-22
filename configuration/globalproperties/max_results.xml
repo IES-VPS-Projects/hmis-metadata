@@ -1,0 +1,10 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>webservices.rest.maxResultsDefault</property>
+            <value>
+                200
+            </value>
+        </globalProperty>
+    </globalProperties>
+</config>
