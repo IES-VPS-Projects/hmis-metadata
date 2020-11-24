@@ -1,0 +1,34 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
+728bee1e-da15-4803-a08c-b209ea3bf326,"Ortho, Application of P.O.P",Application of P.O.P,,,Misc,N/A,,,,
+f1cdfbb2-4acf-4279-8181-e740d3c19a5a,"Ortho, Application of crepe bandage",Application of crepe bandage,,,Misc,N/A,,,,
+19467fdd-a45c-4448-965a-81e6e908c543,"Ortho, Application of Backslabs",Application of Backslabs,,,Misc,N/A,,,,
+f7be56e3-3fd0-433b-9b93-0ed9c49e419a,"Ortho, Applications",Applications,,,Misc,Coded,,"Ortho, Application of P.O.P;
+Ortho, Application of crepe bandage;
+Ortho, Application of Backslabs;",,
+dbe23a84-6c94-480a-9386-8771fc325b5e,"Ortho, Shoulder",Shoulder,,,Misc,N/A,,,,
+3a763a60-60e0-46ab-9360-e45dd3644672,"Ortho, Elbow",Elbow,,,Misc,N/A,,,,
+c33b5a00-21af-42a7-9cc2-a436f3ec53af,"Ortho, Phalanges",Phalanges,,,Misc,N/A,,,,
+87c70636-7e85-4ba4-9803-273d6dc23254,"Ortho, Reduction of Dislocation",Reduction of Dislocation,,,Misc,Coded,,"Ortho, Shoulder;
+Ortho, Elbow;
+Ortho, Phalanges;",,
+fb4236ce-1c80-424c-acfd-8fff87faed6f,"Ortho, Outpatient Applications",Outpatient Applications,,,Misc,N/A,"Ortho, Applications;
+Reduction of Dislocation;",,,
+80f19da8-d193-40e2-9352-7a0b50dd308c,"Ortho, Application of steinmann’s pin",Application of steinmann’s pin,,,Misc,N/A,,,,
+5edc35fa-3ab8-4da3-afcf-2f78ce0839fd,"Ortho, Application of skin traction",Application of skin traction,,,Misc,N/A,,,,
+3983e3fb-b917-45fa-896e-afa6d856a40b,"Ortho, Braswan splint",Braswan splint,,,Misc,N/A,,,,
+f6396fd7-47fe-4690-bb40-a33fc9695dbe,"Ortho, Thomas splint",Thomas splint,,,Misc,N/A,,,,
+75ef2b6b-03e2-4fb9-aef8-de967b89f66c,"Ortho, Applications inpatient",Applications,,,Misc,Coded,,"Ortho, Application of steinmann’s pin;
+Ortho, Application of skin traction;
+Ortho, Braswan splint;
+Ortho, Thomas splint",,
+dcaf2cb4-89ce-4bde-a585-09a11ac9a44c,"Ortho, steinmann’s pin",Steinmann’s pin,,,Misc,N/A,,,,
+9077c70d-f813-4474-9187-89c6a5c3983b,"Ortho,  skin traction","Skin traction ",,,Misc,N/A,,,,
+63f8b9ff-decc-4e85-95ae-a11ebaa5e68a,"Ortho, Splints",Splints,,,Misc,N/A,,,,
+0f707071-7b59-4eb1-8520-5aa938958040,"Ortho, POP",P.O.P,,,Misc,N/A,,,,
+fe6022ad-d5e7-4fe4-8373-17f3f415a529,"Ortho, Inpatient Removals",Removals,,,Misc,Coded,,"Ortho, steinmann’s pin;
+Ortho,  skin traction;
+Ortho, Splints;Ortho, POP;",,
+764a068c-3df3-49e9-946d-bbd3dfd27909,"Ortho, Inpatient - Applications",Inpatient Appiications,,,Misc,N/A,"75ef2b6b-03e2-4fb9-aef8-de967b89f66c;
+fe6022ad-d5e7-4fe4-8373-17f3f415a529;",,,
+0ebeee7e-2e96-11eb-8a7c-5f8fca66b088,Orthopedic and Trauma Services Form,Orthopedic and Trauma Services,,,Misc,N/A,"Ortho, Outpatient Applications;
+Ortho, Inpatient - Applications;",,,
