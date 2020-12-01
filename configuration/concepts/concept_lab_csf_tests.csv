@@ -1,5 +1,5 @@
 Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
-15daed68-3420-11eb-9b7f-080027405b36,CFS Analysis,"","","","","","Antibiotic Sensitivity (CSF);
+15daed68-3420-11eb-9b7f-080027405b36,CFS Analysis,,,,LabSet,N/A,"Antibiotic Sensitivity (CSF);
 ZN Stain (CSF);
 Differential Count (CSF);
 Cytology (CSF);
@@ -29,8 +29,8 @@ Glucose (CSF);
 Protein (CSF);
 Gram Stain (CSF);
 ADA (CSF);
-pH (CSF);","","",""
-13ec5ffe-9874-428d-919d-15c29bbc9801,CSF,"","","",Sample,N/A,"Antibiotic Sensitivity (CSF);
+pH (CSF);",,,
+13ec5ffe-9874-428d-919d-15c29bbc9801,CSF,,,,Sample,N/A,"Antibiotic Sensitivity (CSF);
 ZN Stain (CSF);
 Differential Count (CSF);
 Cytology (CSF);
@@ -61,4 +61,4 @@ Protein (CSF);
 Gram Stain (CSF);
 ADA (CSF);
 pH (CSF);
-CFS Analysis;","","",""
+CFS Analysis;",,,
