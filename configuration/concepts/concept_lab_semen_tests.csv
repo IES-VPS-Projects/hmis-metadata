@@ -1,0 +1,42 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
+73e292c6-38e4-41d0-9a42-f5dcb1c1c4a4,Semen Analysis,Semen Analysis,"","",LabSet,N/A,"Liquification time (Semen);
+Colour;
+Liquification time;
+Color (Semen);
+Motility;
+Parasite;
+Volume (Semen);
+RBC (Semen);
+Result;
+Total Count;
+Viscoscity;
+Motility (Semen);
+Culture (Semen);
+Pus Cells (Semen);
+Morphology;
+Total Sperm Count;
+pH (Semen);
+Gram Stain (Semen);
+AFB Stain (Semen);
+Antibiotic Sensitivity (Semen);","","",""
+928eb027-65c5-48b4-b375-be3f7753673a,Semen,"","","",Sample,N/A,"Liquification time (Semen);
+Colour;
+Liquification time;
+Color (Semen);
+Motility;
+Parasite;
+Volume (Semen);
+RBC (Semen);
+Result;
+Total Count;
+Viscoscity;
+Motility (Semen);
+Culture (Semen);
+Pus Cells (Semen);
+Morphology;
+Total Sperm Count;
+pH (Semen);
+Gram Stain (Semen);
+AFB Stain (Semen);
+Antibiotic Sensitivity (Semen);
+Semen Analysis;","","",""

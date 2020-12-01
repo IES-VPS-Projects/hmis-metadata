@@ -1,0 +1,18 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
+072086a8-341f-11eb-b8ad-080027405b36,ANC Profile Set,ANC Profile,,,LabSet,N/A,"Blood Sugar Test;
+Blood Group Test, ANC;
+Rhesus Test, AC;
+Serelogy, ANC;
+Hb Test, ANC;
+HBsAg Test, ANC;
+Bs for MPs Test;
+ANC, Urinalysis;",,,
+5c706aad-3415-4c9a-a9f5-c53ea50eea9f,ANC Orders Set,ANC Orders,,,Sample,N/A,"Blood Sugar Test;
+Blood Group Test, ANC;
+Rhesus Test, AC;
+Serelogy, ANC;
+Hb Test, ANC;
+HBsAg Test, ANC;
+Bs for MPs Test;
+ANC, Urinalysis;
+ANC Profile Set;",,,
