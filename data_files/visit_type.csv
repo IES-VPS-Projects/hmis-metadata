@@ -1,0 +1,7 @@
+name,description,creator,uuid,date_created
+MOPC(Medica outpatient clinic),MOPC(Medica outpatient clinic),4,f86cc282-ad3d-4204-82f9-ccecbde55865,2020-12-04 08:49:17
+DOPC( diabetc outpatient clinic),DOPC( diabetc outpatient clinic),4,3d0bf223-e97f-4eb6-9101-c96b1f46247e,2020-12-04 08:50:01
+SOPC( Surgical outpatient clinic),SOPC( Surgical outpatient clinic),4,d34588e9-7e82-4356-b160-32bb4d4f3132,2020-12-04 08:50:21
+POPC( Paediatric outpatient clinic),POPC( Paediatric outpatient clinic),4,68ce5bf9-9024-472d-8d63-b241ce9bd306,2020-12-04 08:50:36
+NOPC( Neurological outpatient clinic),NOPC( Neurological outpatient clinic),4,5d45b1df-45c0-4b30-aed9-7047e170d4c4,2020-12-04 08:50:49
+OOPC(Orthopedic outpatient clinic),OOPC(Orthopedic outpatient clinic),4,37f729be-e553-49e7-8244-39014483f47c,2020-12-04 08:51:05

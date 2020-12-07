@@ -1,0 +1,7 @@
+Uuid,Role name,Description,Inherited roles,Privileges
+33140544-0df9-4df4-81e0-0298b5832888,MOPC Role,MOPC,Clinical-App-Save;Clinical-App-Observations;Programs-App,MOPC queue
+5969bc85-ff87-4197-8427-c03568c5acc1,DOPC Role,DOPC,Clinical-App-Save;Clinical-App-Observations;Programs-App,DOPC queue
+48893595-6491-4901-b0bf-5f50eb7148aa,SOPC Role,SOPC,Clinical-App-Save;Clinical-App-Observations;Programs-App,SOPC queue
+75220c74-0ba9-4f04-bdc5-295d3de49f0c,POPC Role,POPC,Clinical-App-Save;Clinical-App-Observations;Programs-App,POPC queue
+4e0d273a-0d37-433d-9a73-1834fa23d66d,NOPC Role,NOPC,Clinical-App-Save;Clinical-App-Observations;Programs-App,NOPC queue
+1cc6859e-3f0e-468f-9331-cc097bfc0880,OOPC Role,OOPC,Clinical-App-Save;Clinical-App-Observations;Programs-App,OOPC queue
