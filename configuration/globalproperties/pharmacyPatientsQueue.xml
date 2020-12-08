@@ -1,0 +1,55 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>emrapi.sqlSearch.activePatientsForPharmacy</property>
+            <value>
+                SELECT DISTINCT
+                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                pi.identifier as identifier,
+                concat("",p.uuid) as uuid,
+                concat("",v.uuid) as activeVisitUuid,
+                cast(v.date_started as time) as startTime ,
+                IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from drug_order do
+                INNER JOIN orders od   on od.order_id=do.order_id
+                INNER JOIN encounter e on e.encounter_id=od.encounter_id
+                INNER JOIN visit v on v.visit_id=e.visit_id
+                INNER JOIN person_name pn on v.patient_id = pn.person_id and pn.voided = 0
+                INNER JOIN patient_identifier pi on v.patient_id = pi.patient_id
+                INNER JOIN patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
+                INNER JOIN global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
+                INNER JOIN person p on p.person_id = v.patient_id
+                INNER JOIN location l on l.uuid = ${visit_location_uuid} and v.location_id = l.location_id
+                LEFT OUTER JOIN visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
+                    select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
+                ) and va.voided = 0
+                WHERE v.date_stopped is null AND v.voided = 0 AND od.order_type_id=2
+                
+                UNION
+
+                SELECT DISTINCT
+                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                pi.identifier as identifier,
+                concat("",p.uuid) as uuid,
+                concat("",v.uuid) as activeVisitUuid,
+                cast(v.date_started as time) as startTime ,
+                IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                FROM visit v
+                INNER JOIN visit_type vt ON v.visit_type_id = vt.visit_type_id
+                    and vt.name='PHARMACY VISIT'
+                INNER JOIN patient pt ON v.patient_id = pt.patient_id
+                INNER JOIN patient_identifier pi on v.patient_id = pi.patient_id
+                INNER JOIN patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
+                INNER JOIN global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid
+                INNER JOIN person p ON pt.patient_id = p.person_id
+                INNER JOIN person_name pn ON p.person_id = pn.person_id
+                LEFT OUTER JOIN  visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
+                    select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
+                ) and va.voided = 0
+                WHERE v.voided=0
+                    AND v.date_stopped IS NULL
+
+            </value>
+        </globalProperty>
+    </globalProperties>
+</config>

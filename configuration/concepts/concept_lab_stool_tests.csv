@@ -1,5 +1,5 @@
 Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
-b556e1ce-b32a-4219-a87d-52a198486d57,Stool Examination,"","","",LabSet,N/A,"pH (Stool);
+b556e1ce-b32a-4219-a87d-52a198486d57,Stool Examination,,,,LabSet,N/A,"pH (Stool);
 Reducing substance;
 Fat (Semi Quantitative);
 Coccidians;
@@ -23,7 +23,7 @@ Hookworm;
 Roundworms;
 S. Mansoni;
 Trichuris trichura;
-Amoeba;","","",""
+Amoeba;",,,
 daa9b7f6-341a-11eb-b443-080027405b36,Stool Culture and Sensitivity,,,,LabSet,N/A,"Culture (Stool);
 Antibiotic Sensitivity (Stool);",,,
 1773e5ad-ddbd-447c-959b-b1edd0165bb6,Stool,,,,Sample,N/A,"Stool occult blood;
@@ -62,4 +62,5 @@ Roundworms;
 S. Mansoni;
 Trichuris trichura;
 Amoeba;
-Stool Examination;",,,
+Stool Examination;
+H. Pylori;",,,

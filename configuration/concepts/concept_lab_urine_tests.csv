@@ -1,5 +1,5 @@
 Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
-4afd363a-3421-11eb-abb9-080027405b36,Urinalysis Sample,Urinalysis,"","",LabSet,N/A,"Urine Bile Pigment;
+4afd363a-3421-11eb-abb9-080027405b36,Urinalysis Sample,Urinalysis,,,LabSet,N/A,"Urine Bile Pigment;
 Urine Bile Salt;
 Parallel Urine Sugar (Fasting Blood);
 Parallel Urine Sugar (30 mins);
@@ -38,7 +38,7 @@ pH (Urine);
 Epithelial Cells;
 Albumin (Urine);
 Casts;
-Sugar;","","",""
+Sugar;",,,
 958cd481-53cb-446a-b4c5-9d1dc00ded24,Urine,,,,Sample,N/A,"Renal Concentrating Ability;
 ZN Stain (Urine);
 Bence Jones Protein;
@@ -94,4 +94,5 @@ Epithelial Cells;
 Albumin (Urine);
 Casts;
 Sugar;
-Urinalysis Sample;",,,
+Urinalysis Sample;
+Urine Pregnancy Test;",,,
