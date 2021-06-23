@@ -11,6 +11,10 @@
           cast(v.date_started as time) as startTime ,
           IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
         from visit v
+        join encounter e on e.visit_id=v.visit_id
+            and e.voided = 0
+        join obs ob on ob.encounter_id=e.encounter_id
+            and ob.voided=0
         join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
         join patient_identifier pi on v.patient_id = pi.patient_id
         join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
@@ -22,6 +26,7 @@
         ) and va.voided = 0
         where v.date_stopped is null AND v.voided = 0
         and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
+        and  ob.concept_id<>55
             </value>
         </globalProperty>
     </globalProperties>
