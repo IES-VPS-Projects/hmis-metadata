@@ -2,17 +2,37 @@ Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class
 728bee1e-da15-4803-a08c-b209ea3bf326,"Ortho, Application of P.O.P",Application of P.O.P,,,Misc,N/A,,,,
 f1cdfbb2-4acf-4279-8181-e740d3c19a5a,"Ortho, Application of crepe bandage",Application of crepe bandage,,,Misc,N/A,,,,
 19467fdd-a45c-4448-965a-81e6e908c543,"Ortho, Application of Backslabs",Application of Backslabs,,,Misc,N/A,,,,
+f1afa4ff-afaf-443d-bc02-ac064f2adbf9,"Ortho, Application of pocket arm sling",Application of pocket arm sling,,,Misc,N/A,,,,
 f7be56e3-3fd0-433b-9b93-0ed9c49e419a,"Ortho, Applications",Applications,,,Misc,Coded,,"Ortho, Application of P.O.P;
 Ortho, Application of crepe bandage;
-Ortho, Application of Backslabs;",,
+Ortho, Application of Backslabs;
+Ortho, Application of pocket arm sling;",,
 dbe23a84-6c94-480a-9386-8771fc325b5e,"Ortho, Shoulder",Shoulder,,,Misc,N/A,,,,
 3a763a60-60e0-46ab-9360-e45dd3644672,"Ortho, Elbow",Elbow,,,Misc,N/A,,,,
 c33b5a00-21af-42a7-9cc2-a436f3ec53af,"Ortho, Phalanges",Phalanges,,,Misc,N/A,,,,
+a0e83ed1-6de4-41dc-8bcd-9f88979eb71b,"Ortho, Knee",Knee,,,Misc,N/A,,,,
+32822795-918a-4ea7-bb26-86b36ba2e234,"Ortho, Hip",Hip,,,Misc,N/A,,,,
+dae2fe92-f5cc-488e-99ba-0cff9d9aa8ed,"Ortho, Ankle",Ankle,,,Misc,N/A,,,,
+3498c83d-c357-48b7-90cb-5ad2bb3807cd,"Ortho, Wrist Joint",Wristjoint,,,Misc,N/A,,,,
 87c70636-7e85-4ba4-9803-273d6dc23254,"Ortho, Reduction of Dislocation",Reduction of Dislocation,,,Misc,Coded,,"Ortho, Shoulder;
 Ortho, Elbow;
-Ortho, Phalanges;",,
+Ortho, Phalanges;
+Ortho, Knee;
+Ortho, Hip;
+Ortho, Ankle;
+Ortho, Wrist Joint;",,
 fb4236ce-1c80-424c-acfd-8fff87faed6f,"Ortho, Outpatient Applications",Outpatient Applications,,,Misc,N/A,"Ortho, Applications;
 Reduction of Dislocation;",,,
+80502439-91bb-4dfe-a024-9a6f9e4a0ab0,"Ortho, Application of POP- 300 Ksh",Application of POP- 300 Ksh,,,Misc,N/A,,,,
+68578fc8-b057-4283-98fa-51b33136216a,"Ortho, Application of crepe bandage - 200ksh",Crepe bandage - 200ksh,,,Misc,N/A,,,,
+a2011728-42a9-4e25-ac27-c211a1bfd49b,"Ortho, Refferal Applications",Applications,,,Misc,Coded,,"Ortho, Application of POP- 300 Ksh;
+Ortho, Application of crepe bandage - 200ksh;",,
+dcd87831-730f-4e91-9571-3e786b61b067,"Ortho, Referrals from private facilities section",Referrals from private facilities,,,Misc,N/A,"Ortho, Refferal Applications;",,,
+8ad1d806-d65f-4b4c-8a24-4f2e52cd39b2,"Ortho, Application of POP - 200ksh",Application of POP - 200ksh,,,Misc,N/A,,,,
+c54126e7-4b1d-4dcb-bc32-dc75bccf55e8,"Ortho, Application of crepe bandage - 100ksh",Application of crepe bandage - 100ksh,,,Misc,N/A,,,,
+cbdb862e-aec0-4ee8-9a02-ea923fe747bb,"Ortho, Service only applications",Applications,,,Misc,Coded,,"Ortho, Application of POP - 200ksh;
+Ortho, Application of crepe bandage - 100ksh;",,
+026cccc2-3ace-49f0-badf-7ae0100537b1,"Ortho, Service only section",Patients seeking the services only,,,Misc,N/A,"Ortho, Service only applications;",,,
 80f19da8-d193-40e2-9352-7a0b50dd308c,"Ortho, Application of steinmann’s pin",Application of steinmann’s pin,,,Misc,N/A,,,,
 5edc35fa-3ab8-4da3-afcf-2f78ce0839fd,"Ortho, Application of skin traction",Application of skin traction,,,Misc,N/A,,,,
 3983e3fb-b917-45fa-896e-afa6d856a40b,"Ortho, Braswan splint",Braswan splint,,,Misc,N/A,,,,
@@ -31,4 +51,6 @@ Ortho, Splints;Ortho, POP;",,
 764a068c-3df3-49e9-946d-bbd3dfd27909,"Ortho, Inpatient - Applications",Inpatient Appiications,,,Misc,N/A,"75ef2b6b-03e2-4fb9-aef8-de967b89f66c;
 fe6022ad-d5e7-4fe4-8373-17f3f415a529;",,,
 0ebeee7e-2e96-11eb-8a7c-5f8fca66b088,Orthopedic and Trauma Services Form,Orthopedic and Trauma Services,,,Misc,N/A,"Ortho, Outpatient Applications;
-Ortho, Inpatient - Applications;",,,
+Ortho, Inpatient - Applications;
+Ortho, Referrals from private facilities section;
+Ortho, Service only section;",,,
