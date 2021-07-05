@@ -26,7 +26,7 @@
         ) and va.voided = 0
         where v.date_stopped is null AND v.voided = 0
         and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
-        and  ob.concept_id<>55
+        and  ob.concept_id!=55
             </value>
         </globalProperty>
     </globalProperties>

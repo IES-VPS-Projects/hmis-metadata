@@ -43,7 +43,7 @@
                     left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                     select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
                     ) and va.voided = 0
-                    where v.date_stopped is null AND v.voided = 0 AND ob.concept_id<>55
+                    where v.date_stopped is null AND v.voided = 0 AND ob.concept_id!=55
             </value>
         </globalProperty>
     </globalProperties>
