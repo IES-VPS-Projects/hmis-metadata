@@ -18,7 +18,17 @@ fe2e110c-2736-42a5-a9ae-1152e10ef365,"Injection, Metoclopramide plasil10mg",Meto
 9fdca38f-1bfa-4af9-ad21-94260a87f368,"Injection, Adrenaline 1mg",Adrenaline 1mg,,,Nursing,N/A,,,,
 4f78cc8c-3a7b-43c1-a4e0-9089896d9cda,"Injection, Atropine 1 mg",Atropine 1 mg,,,Nursing,N/A,,,,
 9c805b66-1dab-4ebc-b9e0-d010b2720abc,"Injection, AntiRabbies Vaccine",AntiRabbies Vaccine,,,Nursing,N/A,,,,
-71817bfc-a3e0-4af4-8d36-6a585219b9f6,Injections Set,Injections,"","",Misc,N/A,"Injection, Tramadol 100mg;
+fb72088e-34ce-4e2a-90fa-f46db0d716f6,"Injection, Hydrocortisone 200mg",Hydrocortisone 200mg,,,Nursing,N/A,,,,
+21530dd6-4706-4093-ac05-91da027c677e,"Injection, Buscopan 40mg",Buscopan 40mg,,,Nursing,N/A,,,,
+7def1448-0eda-4136-aa1f-38b0e9f293d4,"Injection, Dexamethasone 8mg",Dexamethasone 8mg,,,Nursing,N/A,,,,
+04e76fbf-31c9-4436-86e2-41e95b7c024e,"Injection, Dexamethasone 12mg",Dexamethasone 12mg,,,Nursing,N/A,,,,
+8d0178d5-c4e8-41a3-9fe7-fba0040558ea,"Injection, Diazepam 20mg",Diazepam 20mg,,,Nursing,N/A,,,,
+dfe94f5b-a384-4cb7-9eb4-81aa4d2e8e1a,"Injection, Modicate 50mg",Modicate 50mg,,,Nursing,N/A,,,,
+0937df66-8c22-43cd-98a1-0b9c4245f992,"Injection, Modicate 75mg",Modicate 75mg,,,Nursing,N/A,,,,
+e3215225-5742-4d50-b722-1e842b477998,"Injection, Chlorpromazine 200mg",Chlorpromazine 200mg,,,Nursing,N/A,,,,
+d906f903-40ba-4bc4-856d-76468438369d,"Injection, Lasix 40mg",Lasix 40mg,,,Nursing,N/A,,,,
+3563d9b5-07a4-4c4b-8b70-25f6cbd1378a,"Injection, Lasix 60mg",Lasix 60mg,,,Nursing,N/A,,,,
+71817bfc-a3e0-4af4-8d36-6a585219b9f6,Injections Set,Injections,,,Misc,N/A,"Injection, Tramadol 100mg;
 Injection, Hydrocortisone 100gm;
 Injection, Diazepum 10gm;
 Injection, Chlopromazine 100gm;
@@ -37,4 +47,13 @@ Injection, Vit K Paediatric 2mg;
 Injection, Adrenaline 1mg;
 Injection, Atropine 1 mg;
 Injection, AntiRabbies Vaccine;
-","","",""
+Injection, Hydrocortisone 200mg;
+Injection, Buscopan 40mg;
+Injection, Dexamethasone 8mg;
+Injection, Dexamethasone 12mg;
+Injection, Diazepam 20mg;
+Injection, Modicate 50mg;
+Injection, Modicate 75mg;
+Injection, Chlorpromazine 200mg;
+Injection, Lasix 40mg;
+Injection, Lasix 60mg;",,,
