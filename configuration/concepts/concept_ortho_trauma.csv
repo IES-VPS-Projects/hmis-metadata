@@ -42,11 +42,11 @@ Ortho, Application of skin traction;
 Ortho, Braswan splint;
 Ortho, Thomas splint",,
 dcaf2cb4-89ce-4bde-a585-09a11ac9a44c,"Ortho, steinmann’s pin",Steinmann’s pin,,,Misc,N/A,,,,
-9077c70d-f813-4474-9187-89c6a5c3983b,"Ortho,  skin traction","Skin traction ",,,Misc,N/A,,,,
+9077c70d-f813-4474-9187-89c6a5c3983b,"Ortho, skin traction","Skin traction ",,,Misc,N/A,,,,
 63f8b9ff-decc-4e85-95ae-a11ebaa5e68a,"Ortho, Splints",Splints,,,Misc,N/A,,,,
 0f707071-7b59-4eb1-8520-5aa938958040,"Ortho, POP",P.O.P,,,Misc,N/A,,,,
 fe6022ad-d5e7-4fe4-8373-17f3f415a529,"Ortho, Inpatient Removals",Removals,,,Misc,Coded,,"Ortho, steinmann’s pin;
-Ortho,  skin traction;
+Ortho, skin traction;
 Ortho, Splints;Ortho, POP;",,
 764a068c-3df3-49e9-946d-bbd3dfd27909,"Ortho, Inpatient - Applications",Inpatient Appiications,,,Misc,N/A,"75ef2b6b-03e2-4fb9-aef8-de967b89f66c;
 fe6022ad-d5e7-4fe4-8373-17f3f415a529;",,,
