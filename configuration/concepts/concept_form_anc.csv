@@ -1,0 +1,18 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:920
+5d01cfa3-c018-4511-8282-f6f5f6f731a4,"ANC, Syphilis Result",Syphilis,,,Misc,Coded,,"FP, Suspicious;
+FP, Positive;
+FP, Negative;",,
+88db66fe-918e-4d90-8c0c-39a034330f4b,"ANC, Syphilis Testing",Syphilis Testing,,,Misc,N/a,"ANC, Syphilis Result;",,,
+18351dd1-078e-456c-8c23-915b16e9dfaf,ANC,"
+",,"
+",Misc,N/A,"ANC, Gravida;
+LMP;
+ANC Expected Delivery Date;
+ANC, History of Twins;
+ANC Medical and Surgical History;
+ANC, History of previous pregnancies;
+ANC, Current Pregnancy;
+FP, Cervical cancer screening;
+ANC, Syphilis Testing;
+ANC, High Risk Clinic;
+ANC, Date of Next Visit;",,,
