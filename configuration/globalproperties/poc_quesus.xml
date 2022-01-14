@@ -51,16 +51,20 @@
         <globalProperty>
             <property>emrapi.sqlSearch.sopc</property>
             <value>
-                SELECT DISTINCT
-                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
-                pi.identifier as identifier,
-                concat("",p.uuid) as uuid,
-                concat("",v.uuid) as activeVisitUuid
-              from obs ob
-                join encounter e on e.encounter_id=ob.encounter_id
-                join visit v on v.visit_id=e.visit_id
-                join visit_type vt ON v.visit_type_id = vt.visit_type_id
+              select distinct
+                  concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                  pi.identifier as identifier,
+                  concat("",p.uuid) as uuid,
+                  concat("",v.uuid) as activeVisitUuid,
+                  cast(v.date_started as time) as startTime ,
+                  IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from visit v
+                INNER JOIN visit_type vt on v.visit_type_id = vt.visit_type_id
                     AND vt.name="SOPC( Surgical outpatient clinic)"
+                join encounter e on e.visit_id=v.visit_id
+                    and e.voided = 0
+                join obs ob on ob.encounter_id=e.encounter_id
+                    and ob.voided=0
                 join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
                 join patient_identifier pi on v.patient_id = pi.patient_id
                 join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
@@ -69,22 +73,28 @@
                 left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                   select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
                 ) and va.voided = 0
-              where v.date_stopped is null AND v.voided = 0 AND ob.concept_id!=55
+                where v.date_stopped is null AND v.voided = 0
+                and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
+                and  ob.concept_id!=55
             </value>
         </globalProperty>
         <globalProperty>
             <property>emrapi.sqlSearch.popc</property>
             <value>
-                SELECT DISTINCT
-                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
-                pi.identifier as identifier,
-                concat("",p.uuid) as uuid,
-                concat("",v.uuid) as activeVisitUuid
-              from obs ob
-                join encounter e on e.encounter_id=ob.encounter_id
-                join visit v on v.visit_id=e.visit_id
-                join visit_type vt ON v.visit_type_id = vt.visit_type_id
+              select distinct
+                  concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                  pi.identifier as identifier,
+                  concat("",p.uuid) as uuid,
+                  concat("",v.uuid) as activeVisitUuid,
+                  cast(v.date_started as time) as startTime ,
+                  IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from visit v
+                INNER JOIN visit_type vt on v.visit_type_id = vt.visit_type_id
                     AND vt.name="POPC( Paediatric outpatient clinic)"
+                join encounter e on e.visit_id=v.visit_id
+                    and e.voided = 0
+                join obs ob on ob.encounter_id=e.encounter_id
+                    and ob.voided=0
                 join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
                 join patient_identifier pi on v.patient_id = pi.patient_id
                 join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
@@ -93,22 +103,28 @@
                 left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                   select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
                 ) and va.voided = 0
-              where v.date_stopped is null AND v.voided = 0 AND ob.concept_id!=55
+                where v.date_stopped is null AND v.voided = 0
+                and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
+                and  ob.concept_id!=55
             </value>
         </globalProperty>
         <globalProperty>
             <property>emrapi.sqlSearch.nopc</property>
             <value>
-                SELECT DISTINCT
-                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
-                pi.identifier as identifier,
-                concat("",p.uuid) as uuid,
-                concat("",v.uuid) as activeVisitUuid
-              from obs ob
-                join encounter e on e.encounter_id=ob.encounter_id
-                join visit v on v.visit_id=e.visit_id
-                join visit_type vt ON v.visit_type_id = vt.visit_type_id
+              select distinct
+                  concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                  pi.identifier as identifier,
+                  concat("",p.uuid) as uuid,
+                  concat("",v.uuid) as activeVisitUuid,
+                  cast(v.date_started as time) as startTime ,
+                  IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from visit v
+                INNER JOIN visit_type vt on v.visit_type_id = vt.visit_type_id
                     AND vt.name="NOPC( Neurological outpatient clinic)"
+                join encounter e on e.visit_id=v.visit_id
+                    and e.voided = 0
+                join obs ob on ob.encounter_id=e.encounter_id
+                    and ob.voided=0
                 join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
                 join patient_identifier pi on v.patient_id = pi.patient_id
                 join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
@@ -117,22 +133,28 @@
                 left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                   select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
                 ) and va.voided = 0
-              where v.date_stopped is null AND v.voided = 0 AND ob.concept_id!=55
+                where v.date_stopped is null AND v.voided = 0
+                and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
+                and  ob.concept_id!=55
             </value>
         </globalProperty>
         <globalProperty>
             <property>emrapi.sqlSearch.oopc</property>
             <value>
-                SELECT DISTINCT
-                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
-                pi.identifier as identifier,
-                concat("",p.uuid) as uuid,
-                concat("",v.uuid) as activeVisitUuid
-              from obs ob
-                join encounter e on e.encounter_id=ob.encounter_id
-                join visit v on v.visit_id=e.visit_id
-                join visit_type vt ON v.visit_type_id = vt.visit_type_id
+                select distinct
+                  concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                  pi.identifier as identifier,
+                  concat("",p.uuid) as uuid,
+                  concat("",v.uuid) as activeVisitUuid,
+                  cast(v.date_started as time) as startTime ,
+                  IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from visit v
+                INNER JOIN visit_type vt on v.visit_type_id = vt.visit_type_id
                     AND vt.name="OOPC(Orthopedic outpatient clinic)"
+                join encounter e on e.visit_id=v.visit_id
+                    and e.voided = 0
+                join obs ob on ob.encounter_id=e.encounter_id
+                    and ob.voided=0
                 join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
                 join patient_identifier pi on v.patient_id = pi.patient_id
                 join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
@@ -141,22 +163,28 @@
                 left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                   select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
                 ) and va.voided = 0
-              where v.date_stopped is null AND v.voided = 0 AND ob.concept_id!=55
+                where v.date_stopped is null AND v.voided = 0
+                and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
+                and  ob.concept_id!=55
             </value>
         </globalProperty>
         <globalProperty>
             <property>emrapi.sqlSearch.gopc</property>
             <value>
-                SELECT DISTINCT
-                concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
-                pi.identifier as identifier,
-                concat("",p.uuid) as uuid,
-                concat("",v.uuid) as activeVisitUuid
-              from obs ob
-                join encounter e on e.encounter_id=ob.encounter_id
-                join visit v on v.visit_id=e.visit_id
-                join visit_type vt ON v.visit_type_id = vt.visit_type_id
+              select distinct
+                  concat(pn.given_name,' ', ifnull(pn.family_name,'')) as name,
+                  pi.identifier as identifier,
+                  concat("",p.uuid) as uuid,
+                  concat("",v.uuid) as activeVisitUuid,
+                  cast(v.date_started as time) as startTime ,
+                  IF(va.value_reference = "Admitted", "true", "false") as hasBeenAdmitted
+                from visit v
+                INNER JOIN visit_type vt on v.visit_type_id = vt.visit_type_id
                     AND vt.name="GOPC(Gynaecology outpatient clinic)"
+                join encounter e on e.visit_id=v.visit_id
+                    and e.voided = 0
+                join obs ob on ob.encounter_id=e.encounter_id
+                    and ob.voided=0
                 join person_name pn on v.patient_id = pn.person_id and pn.voided = 0
                 join patient_identifier pi on v.patient_id = pi.patient_id
                 join patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
@@ -165,7 +193,9 @@
                 left outer join visit_attribute va on va.visit_id = v.visit_id and va.attribute_type_id = (
                   select visit_attribute_type_id from visit_attribute_type where name="Admission Status"
                 ) and va.voided = 0
-              where v.date_stopped is null AND v.voided = 0 AND ob.concept_id!=55
+                where v.date_stopped is null AND v.voided = 0
+                and (select count(encounter_id) from encounter where visit_id=v.visit_id  and  encounter_type in(1)) =0
+                and  ob.concept_id!=55
             </value>
         </globalProperty>
     </globalProperties>
