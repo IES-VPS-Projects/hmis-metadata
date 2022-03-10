@@ -1,0 +1,11 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:930
+890fc027-4e55-452a-a765-0a5f29119199,Cash,Cash,,,Misc,N/A,,,,
+8ccfcd8a-d438-40b8-a8cf-7022ecf4f6a5,NHIF,NHIF,,,Misc,N/A,,,,
+09ad5ac9-c5a8-45cb-bb5e-75df3bc129a5,Insurance,Insurance,,,Misc,N/A,,,,
+87f2f135-6617-4a68-8061-fb432be99af6,Mpesa,Mpesa,,,Misc,N/A,,,,
+7f6b35f5-e60c-4ea1-9913-9cb2bbea0d50,Linda Mama,Linda Mama,,,Misc,N/A,,,,
+86a34cc7-e205-4e44-bbc9-a01d33a795ff,Mode of Payment,Mode of Payment,,,Misc,Coded,,"Cash;
+NHIF;
+Insurance;
+Mpesa;
+Linda Mama;",,
