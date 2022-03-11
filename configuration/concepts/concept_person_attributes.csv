@@ -1,0 +1,25 @@
+Uuid,Fully specified name:en,Short name:en,Void/Retire,Description:en,Data class,Data type,Members,Answers,_version:1,_order:930
+f65a2936-37c8-4a65-9559-20b50095d816,Father,Father,,,Misc,N/A,,,,
+34848460-ab62-40bf-bb20-16455a2782de,Mother,Mother,,,Misc,N/A,,,,
+d237003d-21e9-466b-886b-27b41cc80cb0,Son,Son,,,Misc,N/A,,,,
+e3efdf2b-2d97-4164-b826-c4f103ee1b93,Daughter,Daughter,,,Misc,N/A,,,,
+1065798f-8338-409c-b5f4-470736252bb6,Sibling,Sibling,,,Misc,N/A,,,,
+3a7a6692-3324-4d32-9a8c-65103be7eb63,Guardian,Guardian,,,Misc,N/A,,,,
+e6f3cebd-aa29-4d88-8021-7949c55a65cd,Spouse,Spouse,,,Misc,N/A,,,,
+1ccb75f1-7a93-414b-ad61-59485818f155,Relationship Type,Relationship Type,,,Misc,Coded,,"Father;
+Mother;
+Son;
+Daughter;
+Sibling;
+Guardian;
+Spouse;",,
+8aa8b6ca-9c84-4a32-8195-b7c97b1229cb,Kenyatta National Hospital,Kenyatta National Hospital,,,Misc,N/A,,,,
+c8cb2d19-58f5-4c6f-b634-d4ba9803917c,Mwea Mission Hospital,Mwea Mission Hospital,,,Misc,N/A,,,,
+ee2ce605-89bd-42f1-8a08-7aecd2529db9,Mt Kenya (ACK) Hospital,Mt Kenya (ACK) Hospital,,,Misc,N/A,,,,
+21f61c00-283d-4b27-bbe0-bdab252d1cba,Karira Hospital Gate,Karira Hospital Gate,,,Misc,N/A,,,,
+3d39ed96-a961-432d-b7a6-5972eb253639,Community Unit,Community Unit,,,Misc,N/A,,,,
+a73408d6-29e6-4f30-a85d-86a8b2797a39,Referral Facility,Referral Facility,,,Misc,Coded,,"Kenyatta National Hospital;
+Mwea Mission Hospital;
+Mt Kenya (ACK) Hospital;
+Karira Hospital Gate;
+Community Unit;",,
