@@ -1,0 +1,88 @@
+index_id,name,child_uuid,child_name
+1,Diarrhea with no dehydration,3e7b1f9f-005d-4e0f-ace4-b63c72b9178e,Diarrhea with no dehydration
+2,Diarrhea with some dehydration,480605d0-b31c-42b1-829f-7d6626eaf521,Diarrhea with some dehydration
+3,Diarrhea with severe dehydration,8884ef7d-3c3c-47eb-8ce8-3fa7fbd0aeec,Diarrhea with severe dehydration
+4,Cholera,f129df86-4e14-11e4-8a57-0800271c1b75,Cholera
+5,Dysentry(Blood diaarhea),ca3d72a0-bc7d-4270-b1a2-0514dbb79ccb,Dysentry(Blood diaarhea)
+6,Gastroentiritis,dc6bf34b-4e14-11e4-8a57-0800271c1b75,Salmonella gastroenteritis
+6,Gastroentiritis,e78d37f0-4e14-11e4-8a57-0800271c1b75," Gastroenteritis, infectious"
+6,Gastroentiritis,f2ee187d-4e14-11e4-8a57-0800271c1b75,Hemorrhage of gastrointestinal tract
+6,Gastroentiritis,e790c430-4e14-11e4-8a57-0800271c1b75," Gastroesophageal reflux, no esophagitis"
+6,Gastroentiritis,dd70b807-4e14-11e4-8a57-0800271c1b75,"Gastrointestinal tract, unspec."
+7,Pneumonia,e6b508fd-4e14-11e4-8a57-0800271c1b75,Pneumonia
+8,Severe pneumonia,28ff038f-ddab-4eaf-9e53-36fd7fa75901,Severe pneumonia
+9,Upper respiratory tract infections,f59b0d8c-5d3c-4a26-b4f6-4863b64f9465,Upper respiratory tract infections
+10,Lower respiratory tract infections,4d5e46ad-9344-4af9-849e-cb9ac884abb9,Lower respiratory tract infections
+11,Asthma,e5d6453f-4e14-11e4-8a57-0800271c1b75,"Asthma extrinsic, acute exacerbation"
+11,Asthma,e5da4a8f-4e14-11e4-8a57-0800271c1b75,"Asthma intrinsic, acute exacerbation"
+12,Presumed Tuberculosis,0094b1a5-2057-4fca-8c08-99e71e988e8d,Presumed Tuberculosis
+13,Suspected Malaria,bba0e411-a2bb-4be3-8712-f0b38d589945,Suspected Malaria
+14,Tested for Malaria,74f0d6f6-b68b-402b-9615-103684c90f06,Tested for Malaria
+15,Confirmed Malaria,e021e3f5-572d-4749-952d-1b046a4e970a,Confirmed Malaria
+16,Ear Infection,21041918-2b5a-4a67-b375-807bf35370f7,Ear Infection
+17,Malnutrition,c18f73d3-1591-4b7b-a46b-23fae6748aa0,Malnutrition
+18,Anaemia,d4a17cdf-d965-4b5c-80ed-70c73f959dee,Anaemia
+19,Meningococal Menengitis,e337000e-4e14-11e4-8a57-0800271c1b75,Meningococal Menengitis
+20,Other Menengitis,aaed3c55-48c5-46b7-873c-62647bfbd9e7,Other Menengitis
+21,Neonatal Sepsis,ed790a22-4e14-11e4-8a57-0800271c1b75,Neonatal Sepsis
+22,Neonatal Tetenus,01014fa7-2262-43d4-a183-18c89008f891,Neonatal Tetenus
+23,Poliomyelitis(AFP),cefb1c9f-48a6-4790-8ea6-549d92c9a441,Poliomyelitis(AFP)
+24,Chicken Pox,dbeac028-4e14-11e4-8a57-0800271c1b75,Chicken Pox
+25,Measles,efd2679c-4e14-11e4-8a57-0800271c1b75,Measles
+26,Hepatitis,3b4f1bce-7f84-4d34-9728-6ef4aa34c49f,Hepatitis
+27,Amoebasis,564bf1cb-51ca-4050-9575-f6b80efc309a,Amoebasis
+28,Mumps,329550c1-357e-4509-8f48-5da5a49c8b40,Mumps
+29,Typhoid Fever,3fdde7b3-b352-41e3-ad9f-c598785db64c,Typhoid Fever
+30,Bilharzia,d8428112-3e69-4371-b61a-8ce7e788e9fe,Bilharzia
+31,Intestinal Worms,c38b9b74-57c6-4a12-ac52-7045499e1911,Intestinal Worms
+32,Eye Infections,6d69004e-ec76-4754-961f-fe33796a394b,Eye Infections
+33,Tonsillitis,0bff85d4-7d47-4efd-8184-bf27573a2a4a,Tonsillitis
+33,Tonsillitis,e715214a-4e14-11e4-8a57-0800271c1b75,"Tonsillitis, acute"
+34,Urinary Tract Infection,604df2ae-2af2-42cb-9180-bb6b33a57556,Urinary Tract Infection
+35,Mental Disorders,f809f579-f088-410c-b501-f58c4dbe09b3,Mental Disorders
+36,Dental Disorders,53024843-718a-4620-9a0a-bfdfa1d21ddb,Dental Disorders
+37,Jiggers Infestation,4438ed06-3973-43fb-b8f3-70c41fd7c7b0,Jiggers Infestation
+38,Diseases of the Skin,dd2848f9-4e14-11e4-8a57-0800271c1b75,Diseases of the Skin
+39,Down's Syndrome,f52534a9-08c1-4c5c-8dea-5067dcc29b74,Down's Syndrome
+40,Poisoning,b03bc618-f2da-4569-9859-4a67b456eb60,Poisoning
+41,Road Traffic Injuries,49c17c49-ff6e-4e78-abb1-c5907a5a460a,Road Traffic Injuries
+42,Deaths due to road traffic injuriess,c648514e-3af7-42e6-8d11-bb705bd0722d,Deaths due to road traffic injuriess
+43,Violence Related Injuries,d1e49080-3f13-4538-87ec-b50870890a78,Violence Related Injuries
+44,Other Injuries,343061c1-aba1-4725-bacb-2a22e0f338e2,"Accidents - Fractures, Injuries e.t.c"
+44,Other Injuries,17abf90e-d7b3-4f01-901e-52c7170b1148,UNSPECIFIED INJURY OF HEAD: INITIAL ENCOUNTER
+44,Other Injuries,fdfe31cd-6d17-41f9-9124-9d27c1a3b6c1,UNSPECIFIED INJURY OF FACE: INITIAL ENCOUNTER
+44,Other Injuries,829ad21b-a954-4f94-a42e-acf8ae5752e4,INJURY: UNSPECIFIED
+44,Other Injuries,ef5d12b2-4e14-11e4-8a57-0800271c1b75,"Head injury, NOS"
+44,Other Injuries,ef61906d-4e14-11e4-8a57-0800271c1b75,"Heat injury, unspec."
+44,Other Injuries,ef1876c6-4e14-11e4-8a57-0800271c1b75,"Crushing injury, unspec."
+44,Other Injuries,ef07112b-4e14-11e4-8a57-0800271c1b75,"Cold injury, unspec."
+44,Other Injuries,f9892601-6894-443d-9f29-ec3e3c9f8ad4,Other Inuries
+45,Sexual Violence,7d03e5e2-bbfc-4bdc-84c2-4867abb3ce29,Sexual Violence
+46,Burns,2c983e20-62fa-4f21-8b2c-89507af63ddd,Burns
+47,Snake Bites,94aa0207-2aa1-475e-adca-3f941af0cec7,Snake Bites
+48,Dog Bites,902dd4d8-1d15-4f72-a800-8096b7b6cf21,Dog Bites
+49,Other Bites,bdbc6ba2-c3f3-4a25-8763-560000fe3fea,Other Bites
+50,Diabetes,70124a02-a1d6-4c14-930e-366e9a171813,"Diagnosis, Diabetes"
+50,Diabetes,de047844-4e14-11e4-8a57-0800271c1b75,"Diabetes I, uncomplicated"
+50,Diabetes,de0be4e3-4e14-11e4-8a57-0800271c1b75,"Diabetes II, uncomplicated"
+50,Diabetes,de07c5d2-4e14-11e4-8a57-0800271c1b75,"Diabetes I, w/ unspec. complications"
+50,Diabetes,de0dfacb-4e14-11e4-8a57-0800271c1b75,"Diabetes II, w/ unspec. complications"
+51,Epilepsy,534fbdcf-9fe9-4e0c-b164-aafb861ad11e,Epilepsy
+52,Other Convulsive Disorders,03f23651-797d-460f-a8b0-926d8b383183,Other Convulsive Disorders
+53,Rheumatic Fever,f7f69a8d-7043-46e3-a244-410e9ca22cca,Rheumatic Fever
+54,Brucellosis,2a6314c1-e652-40eb-b4b3-74b4f10cba84,Brucellosis
+55,Rickets,27437520-d421-4472-b048-2c70525547ea,Rickets
+56,Cerebral Palsy,61f7ec7e-64de-4b01-96af-de6a2d8a0e2a,Cerebral Palsy
+57,Autism,06a3072b-6295-4786-9b2f-9b5f215ef19a,Autism
+58,Tryponosomiasis,46508269-1868-40a7-bf49-e676a3aaee4f,Tryponosomiasis
+59,Yellow Fever,6d0b68ef-cb62-416f-bfe5-a8fb785ad91c,Yellow Fever
+60,Viral Haemrhage Fever,a555117b-c1cb-4c1e-b592-7e70966874f4,Viral Haemrhage Fever
+61,Rift Valley Fever,564695e7-7b09-41ef-a5d9-cd6843ecfddc,Rift Valley Fever
+62,Chikungunya,58870d13-82a0-4344-8f80-0c4bd8109583,Chikungunya
+63,Dengue Fever,da789f32-ceae-4325-bba7-5b61f11933bf,Dengue Fever
+64,Leishmaniasis(Kalaazar),1a72cd2f-6149-48b2-a822-b9d80a8f7342,Leishmaniasis(Kalaazar)
+65,Cutaneous Leishmaniasis,0507a679-c9ac-42e0-9932-3bfa21f59a4e,Cutaneous Leishmaniasis
+66,Suspected Anthrax,7d0962a8-9587-4755-bc8a-f686209e9278,Suspected Anthrax
+67,Suspected Childhood Cancers,dc031123-fdba-43cc-a7b0-cb6c2cd3a4c1,Suspected Childhood Cancers
+68,Hypoxemia (Spo2<90%),9dbd83df-ae04-40ff-8b7a-2816f75f3d74,Hypoxemia (Spo2<90%)
+69,Covid-19,e2851310-9771-4f91-9456-d041f91088eb,Covid-19

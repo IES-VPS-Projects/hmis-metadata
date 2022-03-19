@@ -1,0 +1,123 @@
+index_id,name,child_uuid,child_name
+1,Diarrhea,aab201cd-7953-4b1e-8821-20d53f8d09af,Diarrhea
+2,Tuberculosis,1e54dc21-8562-4b05-8cb5-34908b1fcf42,Tuberculosis
+3,Dysentry(Blood diarhea),ca3d72a0-bc7d-4270-b1a2-0514dbb79ccb,Dysentry(Blood diarhea)
+4,Cholera,f129df86-4e14-11e4-8a57-0800271c1b75,Cholera
+5,Meningococal Menengitis,efdcfec8-4e14-11e4-8a57-0800271c1b75,Streptococcal meningitis
+5,Meningococal Menengitis,e337000e-4e14-11e4-8a57-0800271c1b75,Meningococal menengitis
+6,Other Menengitis,aaed3c55-48c5-46b7-873c-62647bfbd9e7,Other Menengitis
+7,Tetanus,ddcf6c24-bdce-49be-a71a-f180ff32e140,Tetenus
+8,Poliomyelitis(AFP),cefb1c9f-48a6-4790-8ea6-549d92c9a441,Poliomyelitis(AFP)
+9,Chicken Pox,dbeac028-4e14-11e4-8a57-0800271c1b75,Chicken Pox
+10,Measles,efd2679c-4e14-11e4-8a57-0800271c1b75,Measles
+11,Hepatitis,3b4f1bce-7f84-4d34-9728-6ef4aa34c49f,Hepatitis
+12,Mumps,329550c1-357e-4509-8f48-5da5a49c8b40,Mumps
+13,Suspected Malaria,bba0e411-a2bb-4be3-8712-f0b38d589945,Suspected Malaria
+14,Tested for Malaria,74f0d6f6-b68b-402b-9615-103684c90f06,Tested for Malaria
+15,Confirmed Malaria,e021e3f5-572d-4749-952d-1b046a4e970a,Confirmed Malaria
+16,Malaria in pregnancy,1143a5fc-4127-4783-99cb-e2e2c296f377,Malaria in pregnancy
+17,Amoebasis,564bf1cb-51ca-4050-9575-f6b80efc309a,Amoebasis
+18,Typhoid Fever,3fdde7b3-b352-41e3-ad9f-c598785db64c,Typhoid Fever
+19,Sexually Transmitted Infections,e1b9a81e-f83f-4654-9432-c653d89057c1,Sexually Transmitted Infections
+20,Urinary Tract Infection,604df2ae-2af2-42cb-9180-bb6b33a57556,Urinary Tract Infection
+21,Bilharzia (Schistomiasis),d8428112-3e69-4371-b61a-8ce7e788e9fe,Bilharzia (Schistomiasis)
+22,Intestinal Worms,c38b9b74-57c6-4a12-ac52-7045499e1911,Intestinal Worms
+23,Malnutrition,c18f73d3-1591-4b7b-a46b-23fae6748aa0,Malnutrition
+24,Anaemia,d4a17cdf-d965-4b5c-80ed-70c73f959dee,Anaemia
+25,Eye Infections,6d69004e-ec76-4754-961f-fe33796a394b,Eye Infections
+26,Ear Infections,21041918-2b5a-4a67-b375-807bf35370f7,Ear Infections
+27,Upper respiratory tract infections,f59b0d8c-5d3c-4a26-b4f6-4863b64f9465,Upper respiratory tract infections
+28,Asthma,11ca83c4-a2d4-47cb-ae4a-0d33f0ba5703,Asthma
+29,Pneumonia,e6b508fd-4e14-11e4-8a57-0800271c1b75,Pneumonia
+30,Other Lower respiratory Tract Infections,4d5e46ad-9344-4af9-849e-cb9ac884abb9,Other Lower respiratory Tract Infections
+31,Abortion,eff028ad-4e14-11e4-8a57-0800271c1b75,"Abortion with unspecified complication, incomplete"
+31,Abortion,ea6e3239-4e14-11e4-8a57-0800271c1b75,"Threatened abortion, unspec."
+31,Abortion,ea185ac5-4e14-11e4-8a57-0800271c1b75,"Abortion, induced, w/o complication"
+31,Abortion,ea1b0b93-4e14-11e4-8a57-0800271c1b75,"Abortion, spontaneous, w/o complication"
+32,Dis. of Puerperium & Child Birth,ea3b6389-4e14-11e4-8a57-0800271c1b75,"Other complication of puerperium/postpartum, unspec."
+33,Hypertension,7620e8a8-7d8d-42d8-9218-2af56d65248c,HyperTension
+33,Hypertension,f11ef771-4e14-11e4-8a57-0800271c1b75,Portal hypertension
+33,Hypertension,efe03f8b-4e14-11e4-8a57-0800271c1b75,Benign intracranial hypertension
+33,Hypertension,e46bc0bf-4e14-11e4-8a57-0800271c1b75,"Hypertension, benign"
+33,Hypertension,e4a391e6-4e14-11e4-8a57-0800271c1b75,"Hypertension, unspec."
+33,Hypertension,e46e6f21-4e14-11e4-8a57-0800271c1b75,"Hypertension, malignant"
+33,Hypertension,e3f044de-4e14-11e4-8a57-0800271c1b75,Elevated BP w/o hypertension
+33,Hypertension,ea3601ff-4e14-11e4-8a57-0800271c1b75,"Gestational hypertension, unspec."
+33,Hypertension,e4e8ab00-4e14-11e4-8a57-0800271c1b75,"Hypertensive renal disease w/o renal failure, unspec."
+33,Hypertension,e4e48d1c-4e14-11e4-8a57-0800271c1b75,"Hypertensive heart disease, unspec., w/ heart failure"
+34,Dental Disorders,a2ea11ab-fa33-45cc-93bd-e868ffa12ab5,ARRESTED DENTAL CARIES
+34,Dental Disorders,e76d6d6a-4e14-11e4-8a57-0800271c1b75,Dental abscess
+34,Dental Disorders,936ddfe1-88c6-406e-9b3d-52d2238e41e4,DENTAL CARIES ON PIT AND FISSURE SURFACE
+34,Dental Disorders,054c6cfc-5b0f-48f3-b435-d1441bbac81c,DENTAL CARIES ON PIT AND FISSURE SURFACE LIMITED TO ENAMEL
+34,Dental Disorders,ddfa9f58-18bd-4707-90b6-7d17c4364e4f,DENTAL CARIES ON PIT AND FISSURE SURFACE PENETRATING INTO DENTIN
+34,Dental Disorders,91fad77a-e814-405d-8677-0383940de7c6,DENTAL CARIES ON PIT AND FISSURE SURFACE PENETRATING INTO PULP
+34,Dental Disorders,d93c1267-2812-4e26-8934-d41891545cf2,DENTAL CARIES ON SMOOTH SURFACE
+34,Dental Disorders,1847f625-3139-48dd-9969-e4ca436c3f21,DENTAL CARIES ON SMOOTH SURFACE LIMITED TO ENAMEL
+34,Dental Disorders,7ad2dbc8-f46c-4e8d-9313-4d7915a8a0f3,DENTAL CARIES ON SMOOTH SURFACE PENETRATING INTO DENTIN
+34,Dental Disorders,f11385d5-57c2-4cd3-9b8a-20ada039b9b4,DENTAL CARIES ON SMOOTH SURFACE PENETRATING INTO PULP
+34,Dental Disorders,e770d9f4-4e14-11e4-8a57-0800271c1b75,"Dental caries, unspec."
+34,Dental Disorders,be849fbc-0452-4726-8a4e-af3ac8ddb333,DENTAL ROOT CARIES
+34,Dental Disorders,e77450cb-4e14-11e4-8a57-0800271c1b75,"Dental, unspec."
+34,Dental Disorders,951a9f0a-89b1-4ae3-8fab-43543eff6a75,FRACTURED DENTAL RESTORATIVE MATERIAL
+34,Dental Disorders,f260ff81-ab7d-4fd0-95cf-819912e7af6a,FRACTURED DENTAL RESTORATIVE MATERIAL WITHOUT LOSS OF MATERIAL
+34,Dental Disorders,2d963b63-1370-4600-ac98-1b48dd2e0e52,POSTERUPTIVE COLOR CHANGES OF DENTAL HARD TISSUES
+34,Dental Disorders,9a7482d3-2898-4f16-998c-935f7e510b64,RETAINED DENTAL ROOT
+34,Dental Disorders,2464f10f-95cb-4288-ae33-1efa80c0181f,UNREPAIRABLE OVERHANGING OF DENTAL RESTORATIVE MATERIALS
+34,Dental Disorders,7840ad4f-7080-4fa5-b864-ba344442f477,UNSPECIFIED DENTAL CARIES
+35,Mental Disorders,f809f579-f088-410c-b501-f58c4dbe09b3,Mental Disorders
+36,Jiggers Infestation,4438ed06-3973-43fb-b8f3-70c41fd7c7b0,Jiggers Infestation
+37,Diseases of the Skin,ef57bc0c-4e14-11e4-8a57-0800271c1b75,"Foreign body, skin, superficial, unspec."
+37,Diseases of the Skin,dc5e310f-4e14-11e4-8a57-0800271c1b75,"Moniliasis, skin/nails"
+37,Diseases of the Skin,ea9566e3-4e14-11e4-8a57-0800271c1b75,"Other skin disease, unspec."
+37,Diseases of the Skin,dd21b6d6-4e14-11e4-8a57-0800271c1b75,"Skin, soft tissue neoplasm, unspec."
+37,Diseases of the Skin,dcd3d54c-4e14-11e4-8a57-0800271c1b75,"Skin, uncertain behavior"
+37,Diseases of the Skin,dd2848f9-4e14-11e4-8a57-0800271c1b75,"Skin, unspec."
+37,Diseases of the Skin,ed7cbb2e-4e14-11e4-8a57-0800271c1b75,Skin/temperature problem
+37,Diseases of the Skin,eae09446-4e14-11e4-8a57-0800271c1b75,"Ulcer, skin, chronic, unspec."
+38,"Anthritis, joint pains etc",f007aa45-4e14-11e4-8a57-0800271c1b75,"Anthritis, joint pains etc"
+39,Poisoning,b03bc618-f2da-4569-9859-4a67b456eb60,Poisoning
+40,Road Traffic Injuries,49c17c49-ff6e-4e78-abb1-c5907a5a460a,Road Traffic Injuries
+41,Deaths Due to road traffic Injuries,c648514e-3af7-42e6-8d11-bb705bd0722d,Deaths Due to road traffic Injuries
+42,Other Inuries,343061c1-aba1-4725-bacb-2a22e0f338e2,"Accidents - Fractures, Injuries e.t.c"
+42,Other Inuries,ef07112b-4e14-11e4-8a57-0800271c1b75,"Cold injury, unspec."
+42,Other Inuries,ef1876c6-4e14-11e4-8a57-0800271c1b75,"Crushing injury, unspec."
+42,Other Inuries,ef61906d-4e14-11e4-8a57-0800271c1b75,"Heat injury, unspec."
+42,Other Inuries,829ad21b-a954-4f94-a42e-acf8ae5752e4,INJURY: UNSPECIFIED
+42,Other Inuries,17abf90e-d7b3-4f01-901e-52c7170b1148,UNSPECIFIED INJURY OF HEAD: INITIAL ENCOUNTER
+42,Other Inuries,f9892601-6894-443d-9f29-ec3e3c9f8ad4,Other Inuries
+43,Sexual Violence,7d03e5e2-bbfc-4bdc-84c2-4867abb3ce29,Sexual Violence
+44,Violence Related Injuries,d1e49080-3f13-4538-87ec-b50870890a78,Violence Related Injuries
+45,Burns,2c983e20-62fa-4f21-8b2c-89507af63ddd,Burns
+46,Snake Bites,94aa0207-2aa1-475e-adca-3f941af0cec7,Snake Bites
+47,Dog Bites,902dd4d8-1d15-4f72-a800-8096b7b6cf21,Dog Bites
+48,Other Bites,ef65d2a0-4e14-11e4-8a57-0800271c1b75,Insect Bite
+48,Other Bites,bdbc6ba2-c3f3-4a25-8763-560000fe3fea,Other Bites
+49,Diabetes,de047844-4e14-11e4-8a57-0800271c1b75,"Diabetes I, uncomplicated"
+49,Diabetes,de07c5d2-4e14-11e4-8a57-0800271c1b75,"Diabetes I, w/ unspec. complications"
+49,Diabetes,de0be4e3-4e14-11e4-8a57-0800271c1b75,"Diabetes II, uncomplicated"
+49,Diabetes,de0dfacb-4e14-11e4-8a57-0800271c1b75,"Diabetes II, w/ unspec. complications"
+49,Diabetes,70124a02-a1d6-4c14-930e-366e9a171813,"Diagnosis, Diabetes"
+50,Epilepsy,534fbdcf-9fe9-4e0c-b164-aafb861ad11e,Epilepsy
+51,Brucellosis,2a6314c1-e652-40eb-b4b3-74b4f10cba84,Brucellosis
+52,Cardovascualar conditions,30edca67-b808-44d1-8fca-16e790d2912a,Cardovascualar conditions
+53,Central Nervous SYsyem Conditions,2b985aa9-92fd-4c11-a8c3-8b29309e9c25,Central Nervous SYsyem Conditions
+54,Overweight(BMI > 25),deef5de0-4e14-11e4-8a57-0800271c1b75,Overweight(BMI > 25)
+55,Muscular Skeleton Conditions,1be2191d-72ad-467e-a446-64b97e4a4941,Muscular Skeleton Conditions
+56,Fistula (Birth related),efff2a60-4e14-11e4-8a57-0800271c1b75,Anal fissure and fistula
+57,Suspected Neoplams/Cancers,f2462974-4e14-11e4-8a57-0800271c1b75,"Benign Neoplasm,  Cervix uteri"
+57,Suspected Neoplams/Cancers,91643ddb-1bdf-41fd-838e-1da919b241fd,MALIGNANT (PRIMARY) NEOPLASM: UNSPECIFIED
+57,Suspected Neoplams/Cancers,f2b3ac37-4e14-11e4-8a57-0800271c1b75,"Neoplasm, Bladder"
+57,Suspected Neoplams/Cancers,f12b766e-4e14-11e4-8a57-0800271c1b75,"Neoplasm, Stomach"
+57,Suspected Neoplams/Cancers,dd1ddc9f-4e14-11e4-8a57-0800271c1b75,"Neoplasm, unspec."
+57,Suspected Neoplams/Cancers,dd21b6d6-4e14-11e4-8a57-0800271c1b75,"Skin, soft tissue neoplasm, unspec."
+58,Physical disability,53b9f3a5-bda8-47cd-88d5-38045c43754f,Physical disability
+59,Tryponosomiasis,46508269-1868-40a7-bf49-e676a3aaee4f,Tryponosomiasis
+60,Rift valley Fever,564695e7-7b09-41ef-a5d9-cd6843ecfddc,Rift valley Fever
+61,Yellow Fever,6d0b68ef-cb62-416f-bfe5-a8fb785ad91c,Yellow Fever
+62,Viral Haemrhage Fever,a555117b-c1cb-4c1e-b592-7e70966874f4,Viral Haemrhage Fever
+63,Chikungunya,58870d13-82a0-4344-8f80-0c4bd8109583,Chikungunya
+64,Dengue Fever,da789f32-ceae-4325-bba7-5b61f11933bf,Dengue Fever
+65,Leishmmanlasis(Kala-azar),1a72cd2f-6149-48b2-a822-b9d80a8f7342,Leishmmanlasis(Kala-azar)
+66,Cutaneous Leishmaniasis,0507a679-c9ac-42e0-9932-3bfa21f59a4e,Cutaneous Leishmaniasis
+67,Suspected Antrax,7d0962a8-9587-4755-bc8a-f686209e9278,Suspected Antrax
+68,Covid-19,e2851310-9771-4f91-9456-d041f91088eb,Covid-19
