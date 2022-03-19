@@ -1,0 +1,69 @@
+index,Name,concept_id
+1,Diarrhea,0
+2,Tuberculosis,0
+3,Dysentry(Blood diarhea),0
+4,Cholera,0
+5,Meningococal Menengitis,0
+6,Other Menengitis,0
+7,Tetenus,0
+8,Poliomyelitis(AFP),0
+9,Chicken Pox,0
+10,Measles,0
+11,Hepatitis,0
+12,Mumps,0
+13,Suspected Malaria,0
+14,Tested for Malaria,0
+15,Confirmed Malaria,0
+16,Malaria in pregnancy,0
+17,Amoebasis,0
+18,Typhoid Fever,0
+19,Sexually Transmitted Infections,0
+20,Urinary Tract Infection,0
+21,Bilharzia (Schistomiasis),0
+22,Intestinal Worms,0
+23,Malnutrition,0
+24,Anaemia,0
+25,Eye Infections,0
+26,Ear Infections,0
+27,Upper respiratory tract infections,0
+28,Asthma,0
+29,Pneumonia,0
+30,Other Lower respiratory Tract Infections,0
+31,Abortion,0
+32,Dis. of Puerperium & Child Birth,0
+33,Hypertension,0
+34,Dental Disorders,0
+35,Mental Disorders,0
+36,Jiggers Infestation,0
+37,Diseases of the Skin,0
+38,"Anthritis, joint pains etc",0
+39,Poisoning,0
+40,Road Traffic Injuries,0
+41,Deaths Due to road traffic Injuries,0
+42,Other Inuries,0
+43,Sexual Violence,0
+44,Violence Related Injuries,0
+45,Burns,0
+46,Snake Bites,0
+47,Dog Bites,0
+48,Other Bites,0
+49,Diabetes,0
+50,Epilepsy,0
+51,Brucellosis,0
+52,Cardovascualar conditions,0
+53,Central Nervous SYsyem Conditions,0
+54,Overweight(BMI > 25),0
+55,Muscular Skeleton Conditions,0
+56,Fistula (Birth related),0
+57,Suspected Neoplams/Cancers,0
+58,Physical disability,0
+59,Tryponosomiasis,0
+60,Rift valley Fever,0
+61,Yellow Fever,0
+62,Viral Haemrhage Fever,0
+63,Chikungunya,0
+64,Dengue Fever,0
+65,Leishmmanlasis(Kala-azar),0
+66,Cutaneous Leishmaniasis,0
+67,Suspected Antrax,0
+68,Covid-19,0
