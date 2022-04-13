@@ -1,3 +1,5 @@
+ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'Passw0rd' WITH GRANT OPTION;
+
 CREATE TABLE openmrs.concept_map_505
 (
     map_id INT NOT NULL PRIMARY KEY, -- primary key column
